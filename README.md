@@ -67,8 +67,8 @@ O projeto segue a **Clean Architecture**, organizada em diferentes camadas para 
 
 O projeto utiliza **CircleCI** para integração contínua, permitindo a execução automática de testes e a construção de builds. A configuração está definida no arquivo `.circleci/config.yml` e inclui:
 
-<a href="https://ibb.co/ZKBHKdx">
-<img src="https://i.ibb.co/3mRHpBk/miniatura-exemplo.png" alt="Pipelines e resultatos de testes" width="200"/>
+<a href="https://github.com/victorhugobenevides/caed__mobile/blob/master/app/src/main/res/circleci_image.png">
+<img src="https://github.com/victorhugobenevides/caed__mobile/blob/master/app/src/main/res/circleci_image.png" alt="Pipelines e resultatos de testes" width="200"/>
 </a>
 
 
