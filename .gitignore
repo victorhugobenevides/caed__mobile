@@ -1,0 +1,64 @@
+### Android/IntelliJ ###
+
+# IDEs e arquivos de build
+.gradle/
+.idea/
+build/
+captures/
+local.properties
+app/build/
+core/build/
+*.iml
+.DS_Store
+/build/
+
+# Arquivos de log
+*.log
+
+# Arquivos de sistema operacional
+*.swp
+*.swo
+*~
+Thumbs.db
+*.tmp
+
+# Arquivos de cache de dependência
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Arquivos do Android Studio
+*.hprof
+
+# Arquivos de build do Android
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+
+# Diretórios de cache de build do Android Studio
+output.json
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+*.jar
+*.war
+*.ear
+*.jks
+
+# Testes
+test-results/
+test-report/
+
+
+# Arquivos de cache do Kotlin
+*.kotlin_metadata/
+
+# Configurações do CircleCI (se necessário manter o diretório)
+.circleci/*.log
+.circleci/*.tmp
+.circleci/.cache/
