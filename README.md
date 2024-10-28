@@ -121,4 +121,4 @@ Se você deseja contribuir para o projeto CAED Mobile, siga os passos abaixo:
 ```bash
 git checkout -b feature/nova-funcionalidade
 
-* o chatgpt contribuiu 
+// o chatgpt contribuiu, só falta você.  
