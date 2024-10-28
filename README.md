@@ -122,3 +122,139 @@ Se você deseja contribuir para o projeto CAED Mobile, siga os passos abaixo:
 git checkout -b feature/nova-funcionalidade
 
 // o chatgpt contribuiu, só falta você.  
+```
+
+## Mock API
+
+O projeto utiliza a **Mock API** fornecida pelo [Mockfly](https://mockfly.dev) para simulação de dados durante o desenvolvimento e testes. Essa API permite criar e gerenciar dados de forma segura e eficiente, facilitando a implementação e execução de funcionalidades sem necessidade de um servidor real.
+
+### URL Base
+
+A URL base da API é:
+
+https://api.mockfly.dev/mocks/49c3ea82-718e-4a12-93f9-167b91afe63e
+
+```
+/login
+
+{
+"isLogged": true
+}
+```
+
+```
+/packages
+
+{
+  "packageGroup": {
+    "code": "160500003517-85",
+    "deliveryPoint": "1ª REGIAO",
+    "city": "ARACAJU",
+    "state": "SE",
+    "status": [
+      {
+        "data": "24/08/23",
+        "hour": "14:32",
+        "description": "Coordenador recebeu a caixa da transportadora"
+      },
+      {
+        "data": "31/08/23",
+        "hour": "18:19",
+        "description": "Coordenador abriu a caixa para leitura dos pacotes"
+      }
+    ]
+  },
+  "packages": [
+    {
+      "code": "160500003517-85",
+      "deliveryPoint": "2ª REGIAO",
+      "city": "JOÃO PESSOA",
+      "state": "PB",
+      "status": [
+        {
+          "data": "24/08/23",
+          "hour": "14:32",
+          "description": "Coordenador recebeu a caixa da transportadora"
+        },
+        {
+          "data": "31/08/23",
+          "hour": "18:19",
+          "description": "Coordenador abriu a caixa para leitura dos pacotes"
+        }
+      ]
+    },
+    {
+      "code": "160500003517-86",
+      "deliveryPoint": "3ª REGIAO",
+      "city": "RECIFE",
+      "state": "PE",
+      "status": [
+        {
+          "data": "24/08/23",
+          "hour": "14:32",
+          "description": "Coordenador recebeu a caixa da transportadora"
+        },
+        {
+          "data": "31/08/23",
+          "hour": "18:19",
+          "description": "Coordenador abriu a caixa para leitura dos pacotes"
+        }
+      ]
+    },
+    {
+      "code": "160500003517-87",
+      "deliveryPoint": "4ª REGIAO",
+      "city": "MACEIÓ",
+      "state": "AL",
+      "status": [
+        {
+          "data": "24/08/23",
+          "hour": "14:32",
+          "description": "Coordenador recebeu a caixa da transportadora"
+        },
+        {
+          "data": "31/08/23",
+          "hour": "18:19",
+          "description": "Coordenador abriu a caixa para leitura dos pacotes"
+        }
+      ]
+    }
+  ],
+  "resumePackages": [
+    {
+      "label": "Pacotes A",
+      "value1": 1560,
+      "labelValue1": "Recebidos",
+      "value2": 440,
+      "labelValue2": "Faltantes"
+    },
+    {
+      "label": "Pacotes B",
+      "value1": 1200,
+      "labelValue1": "Recebidos",
+      "value2": 800,
+      "labelValue2": "Faltantes"
+    },
+    {
+      "label": "Pacotes C",
+      "value1": 1800,
+      "labelValue1": "Recebidos",
+      "value2": 200,
+      "labelValue2": "Faltantes"
+    }
+  ],
+  "status": [
+    {
+      "data": "24/08/23",
+      "hour": "14:32",
+      "description": "Coordenador recebeu a caixa da transportadora"
+    },
+    {
+      "data": "31/08/23",
+      "hour": "18:19",
+      "description": "Coordenador abriu a caixa para leitura dos pacotes"
+    }
+  ]
+}
+
+```
