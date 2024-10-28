@@ -2,6 +2,10 @@
 
 **CAED Mobile**
 
+<a href="https://github.com/victorhugobenevides/caed__mobile/blob/master/app/src/main/res/demo.gif">
+<img src="https://github.com/victorhugobenevides/caed__mobile/blob/master/app/src/main/res/demo.gif" alt="Demo" width="500"/>
+</a>
+
 ## Índice
 - [Funcionalidades Principais](#funcionalidades-principais)
 - [Estrutura do Projeto](#estrutura-do-projeto)
@@ -70,7 +74,6 @@ O projeto utiliza **CircleCI** para integração contínua, permitindo a execuç
 <a href="https://github.com/victorhugobenevides/caed__mobile/blob/master/app/src/main/res/circleci_image.png">
 <img src="https://github.com/victorhugobenevides/caed__mobile/blob/master/app/src/main/res/circleci_image.png" alt="Pipelines e resultatos de testes" width="500"/>
 </a>
-
 
 - **Instalação das dependências**: Configuração do ambiente com o JDK 17 e permissões de execução para o script `gradlew`.
 - **Execução de testes unitários**: São executados testes unitários para verificar a lógica de negócios e a integração dos componentes.
