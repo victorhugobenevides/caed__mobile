@@ -1,6 +1,6 @@
 # CAED Mobile
 
-**CAED Mobile** é um aplicativo voltado para o gerenciamento de catálogos e controle de estoque de produtos. O app é desenvolvido para a plataforma Android, utilizando Jetpack Compose, seguindo os princípios da Clean Architecture e práticas modernas de desenvolvimento.
+**CAED Mobile**
 
 ## Índice
 - [Funcionalidades Principais](#funcionalidades-principais)
@@ -67,7 +67,9 @@ O projeto segue a **Clean Architecture**, organizada em diferentes camadas para 
 
 O projeto utiliza **CircleCI** para integração contínua, permitindo a execução automática de testes e a construção de builds. A configuração está definida no arquivo `.circleci/config.yml` e inclui:
 
-![Pipelines e resultatos de testes](https://ibb.co/ZKBHKdx)
+<a href="https://ibb.co/ZKBHKdx">
+<img src="https://i.ibb.co/3mRHpBk/miniatura-exemplo.png" alt="Pipelines e resultatos de testes" width="200"/>
+</a>
 
 
 - **Instalação das dependências**: Configuração do ambiente com o JDK 17 e permissões de execução para o script `gradlew`.
