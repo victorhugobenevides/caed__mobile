@@ -39,7 +39,7 @@ O projeto segue a **Clean Architecture**, organizada em diferentes camadas para 
 - **Retrofit**: Biblioteca para comunicação com APIs REST.
 - **Coroutines**: Utilizado para operações assíncronas.
 - **Material3**: Design system para criação de componentes visuais consistentes.
-- **JUnit e Espresso**: Para testes unitários e testes de interface.
+- **JUnit**: Para testes unitários e testes de interface.
 
 ## Pré-requisitos
 
@@ -109,7 +109,7 @@ caed-mobile/
 Os testes estão divididos nas seguintes camadas:
 
 - **Testes unitários**: Localizados em `app/src/test`, verificando a lógica de negócio e integração dos casos de uso.
-- **Testes de interface**: Localizados em `app/src/androidTest`, focando em componentes visuais e interações de usuário com o Espresso e o Compose Testing.
+- **Testes de interface**: Localizados em `app/src/androidTest`, focando em componentes visuais e interações de usuário com o Compose Testing.
 
 ## Contribuição
 
@@ -120,3 +120,5 @@ Se você deseja contribuir para o projeto CAED Mobile, siga os passos abaixo:
 
 ```bash
 git checkout -b feature/nova-funcionalidade
+
+* o chatgpt contribuiu 
