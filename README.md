@@ -2,8 +2,13 @@
 
 **CAED Mobile**
 
+- [Apk para download e instalação Android](https://github.com/victorhugobenevides/caed__mobile/blob/master/app/caedMobile.apk)
+
+- [Como instalar um apk](https://canaltech.com.br/android/como-instalar-um-apk-no-android/)
+
+
 <a href="https://github.com/victorhugobenevides/caed__mobile/blob/master/app/src/main/res/demo.gif">
-<img src="https://github.com/victorhugobenevides/caed__mobile/blob/master/app/src/main/res/demo.gif" alt="Demo" width="500"/>
+<img src="https://github.com/victorhugobenevides/caed__mobile/blob/master/app/src/main/res/demo.gif" alt="Demo" width="300"/>
 </a>
 
 ## Índice
