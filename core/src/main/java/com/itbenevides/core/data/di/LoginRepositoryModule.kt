@@ -1,7 +1,7 @@
 package com.itbenevides.core.data.di
 
-import com.itbenevides.core.data.repository.LoginRepository
-import com.itbenevides.core.domain.repository.LoginRepositoryImpl
+import com.itbenevides.core.data.repository.LoginRepositoryImpl
+import com.itbenevides.core.domain.repository.LoginRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

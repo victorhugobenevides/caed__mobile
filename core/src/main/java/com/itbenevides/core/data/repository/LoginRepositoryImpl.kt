@@ -1,10 +1,10 @@
-package com.itbenevides.core.domain.repository
+package com.itbenevides.core.data.repository
 
 
 import com.itbenevides.core.data.model.ResponseLogin
 import com.itbenevides.core.data.model.User
 import com.itbenevides.core.data.remote.APIService
-import com.itbenevides.core.data.repository.LoginRepository
+import com.itbenevides.core.domain.repository.LoginRepository
 import javax.inject.Inject
 
 class LoginRepositoryImpl @Inject constructor(

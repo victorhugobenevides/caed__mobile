@@ -2,7 +2,7 @@ package com.itbenevides.core.domain.usecase
 
 import com.itbenevides.core.data.model.ResponseLogin
 import com.itbenevides.core.data.model.User
-import com.itbenevides.core.data.repository.LoginRepository
+import com.itbenevides.core.domain.repository.LoginRepository
 import com.itbenevides.core.domain.usecase.di.LoginUseCase
 import retrofit2.HttpException
 import java.io.IOException

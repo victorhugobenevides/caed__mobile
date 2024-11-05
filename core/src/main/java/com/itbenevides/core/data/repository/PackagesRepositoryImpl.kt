@@ -1,9 +1,9 @@
-package com.itbenevides.core.domain.repository
+package com.itbenevides.core.data.repository
 
 
 import com.itbenevides.core.data.model.Packages
 import com.itbenevides.core.data.remote.APIService
-import com.itbenevides.core.data.repository.PackagesRepository
+import com.itbenevides.core.domain.repository.PackagesRepository
 import javax.inject.Inject
 
 class PackagesRepositoryImpl @Inject constructor(

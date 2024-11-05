@@ -1,7 +1,7 @@
 package com.itbenevides.core.usecase
 
 import com.itbenevides.core.data.model.Packages
-import com.itbenevides.core.data.repository.PackagesRepository
+import com.itbenevides.core.domain.repository.PackagesRepository
 import com.itbenevides.core.domain.usecase.PackagesUseCaseImp
 import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.runTest

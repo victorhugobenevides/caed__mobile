@@ -2,7 +2,7 @@ package com.itbenevides.core.usecase
 
 import com.itbenevides.core.data.model.ResponseLogin
 import com.itbenevides.core.data.model.User
-import com.itbenevides.core.data.repository.LoginRepository
+import com.itbenevides.core.domain.repository.LoginRepository
 import com.itbenevides.core.domain.usecase.LoginUseCaseImp
 import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.runTest

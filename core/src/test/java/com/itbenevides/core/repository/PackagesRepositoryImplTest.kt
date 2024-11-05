@@ -2,8 +2,7 @@ package com.itbenevides.core.repository
 
 import com.itbenevides.core.data.model.Packages
 import com.itbenevides.core.data.remote.APIService
-import com.itbenevides.core.domain.repository.PackagesRepositoryImpl
-import kotlinx.coroutines.ExperimentalCoroutinesApi
+import com.itbenevides.core.data.repository.PackagesRepositoryImpl
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.runTest

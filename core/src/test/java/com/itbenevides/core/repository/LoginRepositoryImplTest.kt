@@ -1,7 +1,7 @@
 import com.itbenevides.core.data.model.ResponseLogin
 import com.itbenevides.core.data.model.User
 import com.itbenevides.core.data.remote.APIService
-import com.itbenevides.core.domain.repository.LoginRepositoryImpl
+import com.itbenevides.core.data.repository.LoginRepositoryImpl
 import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
